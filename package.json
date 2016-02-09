@@ -1,6 +1,6 @@
 {
     "name": "kevoree-comp-avatarjs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Execute a javascript function and evaluate it against the input value. Note : input values and returned result are of type string.",
     "main": "./lib/AvatarJS.js",
     "kevoree": {
