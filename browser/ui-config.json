@@ -1,0 +1,10 @@
+{
+  "styles": [
+    "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css",
+    "main.css"
+  ],
+  "scripts": [
+    "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js",
+    "main.js"
+  ]
+}

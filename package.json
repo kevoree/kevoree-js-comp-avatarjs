@@ -1,33 +1,34 @@
 {
-    "name": "kevoree-comp-avatarjs",
-    "version": "1.0.2",
-    "description": "Execute a javascript function and evaluate it against the input value. Note : input values and returned result are of type string.",
-    "main": "./lib/AvatarJS.js",
-    "kevoree": {
-        "package": "org.kevoree.library"
-    },
-    "scripts": {
-        "prepublish": "grunt",
-        "postpublish": "grunt publish"
-    },
-    "keywords": [
-        "kevoree-std-lib",
-        "kevoree",
-        "library",
-        "comp"
-    ],
-    "dependencies": {
-        "kevoree-entities": "^8.0.0"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.1",
-        "grunt-kevoree": "^5.0.0",
-        "grunt-kevoree-genmodel" : "^2.0.0",
-        "grunt-kevoree-registry" : "^2.0.0",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-browserify": "^3.0.0",
-        "grunt-contrib-uglify": "^0.4.0"
-    },
-    "license": "MIT",
-    "author": "Manuel Leduc"
+  "name": "kevoree-comp-avatarjs",
+  "version": "1.0.2",
+  "description": "Execute a javascript function and evaluate it against the input value. Note : input values and returned result are of type string.",
+  "main": "./lib/AvatarJS.js",
+  "kevoree": {
+    "package": "org.kevoree.library"
+  },
+  "scripts": {
+    "prepublish": "grunt",
+    "postpublish": "grunt publish"
+  },
+  "keywords": [
+    "kevoree-std-lib",
+    "kevoree",
+    "library",
+    "comp"
+  ],
+  "dependencies": {
+    "js-beautify": "^1.6.2",
+    "kevoree-entities": "^8.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-kevoree": "^5.0.0",
+    "grunt-kevoree-genmodel": "^2.0.0",
+    "grunt-kevoree-registry": "^2.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-browserify": "^3.0.0",
+    "grunt-contrib-uglify": "^0.4.0"
+  },
+  "license": "MIT",
+  "author": "Manuel Leduc"
 }
