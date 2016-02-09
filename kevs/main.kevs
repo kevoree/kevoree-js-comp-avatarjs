@@ -1,0 +1,17 @@
+add node0 : JavascriptNode
+add node0.myComp : AvatarJS
+add node0.comp986 : Ticker
+add node0.comp216 : ConsolePrinter
+add sync : WSGroup
+add chan775, chan512 : LocalChannel
+
+attach node0 sync
+
+bind node0.comp986.tick chan775
+bind node0.myComp.eval chan775
+bind node0.myComp.result chan512
+bind node0.comp216.input chan512
+
+set node0.logLevel = 'DEBUG'
+set node0.myComp.functionName = 'twice'
+set node0.myComp.expression = 'function twice(a) { return parseInt(a,10)*2; }'
